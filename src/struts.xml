@@ -23,6 +23,11 @@
 			<result name="searchPasswordChangeFailed">/companyAccountService/changePassword/changeSearchPassword.jsp</result>
 			<result name="searchPasswordChangeSuccess">/companyAccountService/changePassword/changeSearchPasswordSuccess.jsp</result>
 			
+			<!-- 账号挂失  -->
+			<result name="showAccountLoss">/companyAccountService/companyAccountLoss/showAccount.jsp</result>
+			<result name="selectOkLoss">/companyAccountService/companyAccountLoss/confirmPassword.jsp</result>
+			<result name="confirmFailedLoss">/companyAccountService/companyAccountLoss/confirmPassword.jsp</result>
+			<result name="confirmSuccessLoss">/companyAccountService/companyAccountLoss/lossSuccess.jsp</result>
 			
 			<result name="LoginYet">/index.jsp</result>
 		</action>

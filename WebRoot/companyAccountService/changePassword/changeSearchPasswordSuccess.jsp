@@ -1,4 +1,9 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<!-- 信用卡挂失 -->
+			<result>/CreditCard/cdloss/cdloss.jsp</result>
+			<result name="showCreditCardLoss">/CreditCard/cdloss/showCreditCard.jsp</result>
+			<result name="selectOkLoss">/CreditCard/cdloss/confirmPassword.jsp</result>
+			<result name="confirmFailedLoss">/CreditCard/cdloss/confirmPassword.jsp</result>
+			<result name="confirmSuccessLoss">/CreditCard/cdloss/lossSuccess.jsp</result><%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@ include file="/bootstrap.jsp"%>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">

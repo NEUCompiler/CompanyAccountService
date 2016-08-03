@@ -29,7 +29,7 @@
 							href="<%=basePath%>companyAccountService/changePassword/selectTypeOfPassword.jsp">密码修改</a>
 						</li>
 						<li><a
-							href="<%=basePath%>CreditCard/CreditcardActive_showCreditCard.action">信用卡激活</a>
+							href="<%=basePath%>CompanyAccountService/CompanyAccountServiceLoss_showAccount.action">账号挂失</a>
 						</li>
 						<li><a
 							href="<%=basePath%>CreditCard/CreditcardSearchPasswordSet_showCreditCard.action">信用卡查询密码设置</a>

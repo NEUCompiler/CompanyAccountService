@@ -63,4 +63,9 @@
 		<property name="companyaccountService" ref="companyaccountService"></property>
 		<property name="companyclientService" ref="companyclientService"></property>
 	</bean>
+	<bean id="companyAccountServiceLossAction" class="com.ob.action.CompanyAccountServiceLossAction"
+		scope="prototype">
+		<property name="companyaccountService" ref="companyaccountService"></property>
+		<property name="companyclientService" ref="companyclientService"></property>
+	</bean>
 </beans>
