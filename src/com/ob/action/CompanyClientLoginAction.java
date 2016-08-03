@@ -20,7 +20,7 @@ public class CompanyClientLoginAction extends SuperAction implements
 	}
 	
 	public String login() {
-		if (companyclientService.getCompanyclientDAO().findByUsername(companyclient.getUsername()).size()>0) {
+		if (companyclientService.getCompanyclientDAO().findByUsername(companyclient.getUsername()).size()==0) {
 			request.setAttribute("info", "用户不存在");
 			return "loginFailed";
 		} else {
@@ -32,6 +32,8 @@ public class CompanyClientLoginAction extends SuperAction implements
 				return "loginFailed";
 			}
 			
+			//session保存客户id。
+			session.setAttribute("clientId", companyclient.getClientid());
 			return "loginSuccess";
 		}
 	}

@@ -3,8 +3,28 @@
 <struts>
 	<package name="companyAccountService" extends="struts-default" namespace="/CompanyAccountService">
 		<action name="*_*" class="com.ob.action.{1}Action" method="{2}">
-			<result name="loginFailed">/companyAccountService/companyClientLogin.jsp</result>
-			<result name="loginSuccess">/companyAccountService/index.jsp</result>
+		<!-- 登录   -->
+			<result name="loginFailed">/companyAccountService/companyClientLogin/companyClientLogin.jsp</result>
+			<result name="loginSuccess">/index.jsp</result>
+			
+			<!-- 修改密码  -->
+			<result name="loginPassword">/companyAccountService/changePassword/changeLoginPassword.jsp</result>
+			<result name="searchPassword">/companyAccountService/changePassword/showAccountSPWD.jsp</result>
+			<result name="dealPassword">/companyAccountService/changePassword/showAccountDPWD.jsp</result>
+			<result name="addDealpassword">/companyAccountService/changePassword/changeAddDealpassword.jsp</result>
+			<result name="loginPasswordChangeFailed">/companyAccountService/changePassword/changeLoginPassword.jsp</result>
+			<result name="loginPasswordChangeSuccess">/companyAccountService/changePassword/changeLoginPasswordSuccess.jsp</result>
+			<result name="addDealpasswordChangeFailed">/companyAccountService/changePassword/changeAddDealpassword.jsp</result>
+			<result name="addDealpasswordChangeSuccess">/companyAccountService/changePassword/changeAddDealpasswordSuccess.jsp</result>
+			<result name="selectAccountDPWD">/companyAccountService/changePassword/changeDealPassword.jsp</result>
+			<result name="dealpasswordChangeFailed">/companyAccountService/changePassword/changeDealPassword.jsp</result>
+			<result name="dealPasswordChangeSuccess">/companyAccountService/changePassword/changeDealPasswordSuccess.jsp</result>
+			<result name="selectAccountSPWD">/companyAccountService/changePassword/changeDealPassword.jsp</result>
+			<result name="searchPasswordChangeFailed">/companyAccountService/changePassword/changeSearchPassword.jsp</result>
+			<result name="searchPasswordChangeSuccess">/companyAccountService/changePassword/changeSearchPasswordSuccess.jsp</result>
+			
+			
+			<result name="LoginYet">/index.jsp</result>
 		</action>
 	</package>
 </struts>    

@@ -113,4 +113,15 @@ public class Companyaccount implements java.io.Serializable {
 		this.term = term;
 	}
 
+	@Override
+	public String toString() {
+		return "Companyaccount [accountid=" + accountid + ", amount=" + amount
+				+ ", alimit=" + alimit + ", isloss=" + isloss + ", isopenob="
+				+ isopenob + ", searchpassword=" + searchpassword
+				+ ", dealpassword=" + dealpassword + ", clientid=" + clientid
+				+ ", term=" + term + "]";
+	}
+
+	
+	
 }

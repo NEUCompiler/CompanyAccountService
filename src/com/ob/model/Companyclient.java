@@ -81,4 +81,13 @@ public class Companyclient implements java.io.Serializable {
 		this.phone = phone;
 	}
 
+	@Override
+	public String toString() {
+		return "Companyclient [clientid=" + clientid + ", username=" + username
+				+ ", userpassword=" + userpassword + ", adddealpassword="
+				+ adddealpassword + ", phone=" + phone + "]";
+	}
+
+	
+	
 }
