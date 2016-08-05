@@ -32,10 +32,9 @@
 							href="<%=basePath%>CompanyAccountService/CompanyAccountServiceLoss_showAccount.action">账号挂失</a>
 						</li>
 						<li><a
-							href="<%=basePath%>CreditCard/CreditcardSearchPasswordSet_showCreditCard.action">信用卡查询密码设置</a>
-						</li>
+							href="<%=basePath%>companyAccountService/addAccount/addAccount.jsp">上挂账户</a>
 						<li><a
-							href="<%=basePath%>CreditCard/CreditcardDealPasswordSet_showCreditCard.action">信用卡交易密码设置</a>
+							href="<%=basePath%>companyAccountService/deleteAccount/deleteAccount.jsp">删除上挂账户</a>
 						</li>
 						<li><a
 							href="<%=basePath%>CreditCard/CreditcardLimitSet_showCreditCard.action">信用卡额度设置</a>

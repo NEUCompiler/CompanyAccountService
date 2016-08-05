@@ -68,4 +68,14 @@
 		<property name="companyaccountService" ref="companyaccountService"></property>
 		<property name="companyclientService" ref="companyclientService"></property>
 	</bean>
+	<bean id="companyAccountServiceAddAction" class="com.ob.action.CompanyAccountServiceAddAction"
+		scope="prototype">
+		<property name="companyaccountService" ref="companyaccountService"></property>
+		<property name="companyclientService" ref="companyclientService"></property>
+	</bean>
+	<bean id="companyAccountServiceDeleteAction" class="com.ob.action.CompanyAccountServiceDeleteAction"
+		scope="prototype">
+		<property name="companyaccountService" ref="companyaccountService"></property>
+		<property name="companyclientService" ref="companyclientService"></property>
+	</bean>
 </beans>

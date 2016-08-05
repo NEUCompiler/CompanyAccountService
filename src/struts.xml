@@ -29,7 +29,15 @@
 			<result name="confirmFailedLoss">/companyAccountService/companyAccountLoss/confirmPassword.jsp</result>
 			<result name="confirmSuccessLoss">/companyAccountService/companyAccountLoss/lossSuccess.jsp</result>
 			
+			<!-- 上挂账户 -->
+			<result name="addAccountFailed">/companyAccountService/addAccount/addAccount.jsp</result>
+			<result name="addAccountSuccess">/companyAccountService/addAccount/addAccountSuccess.jsp</result>
+			
+			<!-- 删除上挂账户 -->
 			<result name="LoginYet">/index.jsp</result>
+			<result name="deleteAccountFailed">/companyAccountService/deleteAccount/deleteAccount.jsp</result>
+			<result name="deleteAccountSuccess">/companyAccountService/deleteAccount/deleteAccountSuccess.jsp</result>
+			
 		</action>
 	</package>
 </struts>    
